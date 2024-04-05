@@ -63,6 +63,7 @@ header {
 }
 
 #hero .information-container .information {
+  width: calc(100% - 200px);
   font-weight: bold;
 }
 
