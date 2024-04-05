@@ -43,8 +43,14 @@ header {
 
 #hero .information-container {
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  color: #fff;
+  padding: 0 50px;
 }
 
 #hero .information-container #foto {
@@ -53,4 +59,14 @@ header {
 
 #hero .information-container #foto img {
   border-radius: 100%;
+}
+
+#hero .information-container .information {
+  font-weight: bold;
+}
+
+#hero .information-container .information span {
+  display: inline-block;
+  color: #b5b5b5;
+  margin-bottom: 70px;
 }
