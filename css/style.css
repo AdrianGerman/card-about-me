@@ -30,3 +30,27 @@ header {
   border-radius: 100%;
   border: 2px solid #fff;
 } */
+
+/* hero styles */
+
+#hero {
+  position: relative;
+}
+#hero #fondo {
+  display: inline-block;
+  width: 100%;
+}
+
+#hero .information-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#hero .information-container #foto {
+  width: 200px;
+}
+
+#hero .information-container #foto img {
+  border-radius: 100%;
+}
